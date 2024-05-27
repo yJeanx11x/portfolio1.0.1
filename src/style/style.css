@@ -1,0 +1,45 @@
+li {
+  margin-top: 15px;
+  font-size: 20pt;
+  margin-left: 20px;
+  margin-right: 40px;
+  display: flex;
+}
+ul{
+  margin-left: auto;
+  display: flex;
+}
+
+ul,li:hover {
+  color: #e4004c;
+  opacity: 80%;
+  transition: 0.5s;
+}
+.nome{
+  margin: auto;
+  font-size: 40pt;
+}
+.foto{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  transition: 0.8s;
+  background-image: url('../imgs/4.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  cursor: pointer;
+  margin-top: 80px;
+  margin-right: 100px;
+  
+}
+.foto2{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  transition: 0.8s;
+  background-image: url(../imgs/3.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  margin-top: 80px;
+  margin-right: 100px;
+}
