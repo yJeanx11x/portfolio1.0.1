@@ -5,15 +5,9 @@ li {
   margin-right: 40px;
   display: flex;
 }
-ul{
+.menu{
   margin-left: auto;
   display: flex;
-}
-
-ul,li:hover {
-  color: #e4004c;
-  opacity: 80%;
-  transition: 0.5s;
 }
 .nome{
   margin: auto;
@@ -38,8 +32,22 @@ ul,li:hover {
   border-radius: 50%;
   transition: 0.8s;
   background-image: url(../imgs/3.jpg);
-  background-repeat: no-repeat;
+  transition: 0.8s;
   display: flex;
   margin-top: 80px;
   margin-right: 100px;
+}
+aside li{
+color: #000;
+
+}  
+.conhecimento {
+width: 100%;
+justify-content: center;
+}
+.linguagem li{
+margin: center;
+}
+.linguagem h1{
+  font-size: 25pt;
 }
